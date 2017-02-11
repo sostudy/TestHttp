@@ -6,5 +6,4 @@
 
 [ruby-gems]: https://rubygems.org
 [ruby]: http://www.ruby-lang.org/en/downloads/
-
-[build-icon]: <> (http://shields.io)
+<!-- 说明图标制作网站：http://shields.io-->
