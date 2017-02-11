@@ -1,4 +1,4 @@
-require_relative './framework/http_class_macro_module.rb'
+require_relative './macro/http_class_macro_module.rb'
 require_relative './method/http_method.rb'
 
 class << self
