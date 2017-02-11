@@ -10,7 +10,7 @@ class << self
   http_method :DELETE
   http_method :PUT
 
-  def setup(&block)
+  def setup(&block) 
     self.instance_eval {
         block.call
     }
@@ -23,3 +23,6 @@ class << self
   end
 
 end
+
+load_setup
+GET :url=>"/one/conf?appVersion=4.4.4"
